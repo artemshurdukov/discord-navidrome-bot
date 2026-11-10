@@ -1,0 +1,15 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+lavalink:
+  server:
+    password: "mypassword123"
+    sources:
+      http: true
+      local: false
+  plugins:
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.2"
+      snapshot: false
+plugins:
+  youtube:
+    enabled: true
